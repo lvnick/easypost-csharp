@@ -11,5 +11,7 @@ namespace EasyPost {
         public DateTime? guaranteed_delivery_date { set; get; }
         public string alternate_identifier { get; set; }
         public DateTime? initial_delivery_attempt { get; set; }
+        public TrackingLocation destination_tracking_location { get; set; }
+        public TrackingLocation origin_tracking_location { get; set; }
     }
 }
